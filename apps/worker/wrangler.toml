@@ -1,0 +1,13 @@
+name = "worker"
+main = "src/index.ts"
+compatibility_date = "2022-11-21"
+
+
+[[ d1_databases ]]
+binding = "DATABASE"
+database_name = "test"
+database_id = "b32e2380-9e4b-43bf-b6a7-ff6e5fc9d21c"
+preview_database_id = "b32e2380-9e4b-43bf-b6a7-ff6e5fc9d21c"
+
+[ migraine ]
+source_folder = "src/migrations"

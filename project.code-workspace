@@ -1,0 +1,35 @@
+{
+  "folders": [
+    {
+      "path": "apps/web",
+      "name": "💽\tWeb"
+    },
+    {
+      "path": "apps/worker",
+      "name": "🚦\tWorker"
+    },
+    {
+      "path": "packages/migration-compiler",
+      "name": "🦴\tMigration compiler"
+    },
+    {
+      "path": "packages/sqlite-parser",
+      "name": "📀\tSQLite parser"
+    },
+    {
+      "path": ".",
+      "name": "🦷\tRoot"
+    }
+  ],
+  "settings": {
+    "typescript.preferences.importModuleSpecifier": "non-relative",
+    "jest.disabledWorkspaceFolders": ["🥯\tMobile", "🦷\tRoot"],
+    "jest.jestCommandLine": "yarn test"
+    // "emmet.excludeLanguages": [
+    //   "markdown",
+    //   "typescriptreact",
+    //   "typescript",
+    //   "javascript"
+    // ]
+  }
+}
